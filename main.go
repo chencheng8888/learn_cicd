@@ -11,4 +11,8 @@ func main() {
 			"message":"Hello World",
 		})
 	})
+
+	if err:=r.Run(":8080");err!=nil {
+		panic(err)
+	}
 }
